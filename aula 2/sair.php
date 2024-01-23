@@ -1,0 +1,12 @@
+<?php
+session_start();
+
+if(isset($_SESSION['logar'])){
+    session_destroy();
+    unset($_SESSION['logar']);
+    header("Location:index.html");
+}else{
+    session_destroy();
+    unset($_SESSION['logar']);
+    header("Location:index.html");
+}
