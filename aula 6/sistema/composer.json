@@ -1,0 +1,12 @@
+{
+    "name": "professor/sistema",
+    "autoload": {
+        "classmap": ["Controller" , "Conexao", "Funcoes"]
+    },
+    "authors": [
+        {
+            "name": "brian"
+        }
+    ],
+    "require": {}
+}
